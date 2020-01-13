@@ -46,5 +46,18 @@ public class Main {
        System.out.println(arrayDeCaracteres2 [0]);
        System.out.println(arrayDeCaracteres2 [size-1]);
 
+       int valorNum7 = 25;
+       if (valorNum7 > 0) {
+       System.out.println(valorNum7);
+       }
+
+       int valorNum8 = 30;
+       int valorNum9 = 29;
+       if (valorNum8 > valorNum9) {
+          System.out.println(valorNum8);
+       }
+        if (valorNum9 > valorNum8) {
+          System.out.println(valorNum9);
+       }
     }
 }
