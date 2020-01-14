@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         String nombre = "Noe";
 
-        System.out.println("Bienvenida" + " " + nombre);
+        System.out.println("Bienvenida " + nombre);
 
         String variable = "Primer Intento";
         variable = "Segundo Intento";
@@ -31,24 +31,24 @@ public class Main {
 
        System.out.println(arrayNum5[2]);
 
-       String arrayDeCaracteres[] = {"Noe", "Neira"};
+       String arrayDeStrings[] = {"Noe", "Neira"};
 
-       System.out.println( "Mi nombre es: " + arrayDeCaracteres[0] +" " + arrayDeCaracteres[1]);
+       System.out.println( "Mi nombre es: " + arrayDeStrings[0] + " " + arrayDeStrings[1]);
 
        int arrayNum6[] = {1, 7, 3, 0, 1, 5};
-       System.out.println( "Este array contiene " + arrayNum6.length + " elementos");
+       System.out.println("Este array contiene " + arrayNum6.length + " elementos");
 
-       String arrayDeCaracteres2[] = new String[4];
-       int size = arrayDeCaracteres2.length;
-       arrayDeCaracteres2 [0] = "Primero";
-       arrayDeCaracteres2 [size-1] = "Último";
+       String arrayDeStrings2[] = new String[4];
+       int size = arrayDeStrings2.length;
+       arrayDeStrings2 [0] = "Primero";
+       arrayDeStrings2 [size-1] = "Último";
 
-       System.out.println(arrayDeCaracteres2 [0]);
-       System.out.println(arrayDeCaracteres2 [size-1]);
+       System.out.println(arrayDeStrings2 [0]);
+       System.out.println(arrayDeStrings2 [size-1]);
 
        int valorNum7 = 25;
        if (valorNum7 > 0) {
-       System.out.println(valorNum7);
+           System.out.println(valorNum7);
        }
 
        int valorNum8 = 30;
@@ -60,4 +60,5 @@ public class Main {
           System.out.println(valorNum9);
        }
     }
+
 }
