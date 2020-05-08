@@ -1,4 +1,4 @@
-package paquete;
+package ejerciciosZac;
 
 import java.util.Scanner;
 
@@ -14,7 +14,6 @@ public class EjercicioNroPar{
         }else{
             System.out.println(numero + " es un múmero impar");
         }
-
 
     }
 }

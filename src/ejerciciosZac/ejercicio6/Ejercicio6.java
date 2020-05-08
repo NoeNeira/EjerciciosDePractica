@@ -1,15 +1,14 @@
-package paquete;
+package ejerciciosZac.ejercicio6;
 
 import javax.swing.*;
 
 public class Ejercicio6 {
-        // Atributos
         int num1;
         int num2;
         int suma;
         double promedio;
 
-        // Métodos
+        // Métodos y cuadro de diálogo
         public void ingresarNumeros () {
             num1 = Integer.parseInt(JOptionPane.showInputDialog("Ingreso un número"));
             num2 = Integer.parseInt(JOptionPane.showInputDialog("Ingreso otro número"));
@@ -22,6 +21,7 @@ public class Ejercicio6 {
         public void imprimirSuma () {
             System.out.println("El resultado de la suma es: " + suma);
         }
+        // ejercicio no. 7 promedio
         public void promediar(){
             promedio = (num1 + num2) / (double) 2;
         }

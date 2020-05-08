@@ -1,4 +1,4 @@
-package paquete;
+package ejerciciosZac.ejercicio6;
 
 public class MainEjercicio6 {
     public static void main(String[] args) {

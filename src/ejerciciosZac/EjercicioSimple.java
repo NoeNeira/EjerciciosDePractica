@@ -1,6 +1,4 @@
-package paquete;
-
-import java.awt.*;
+package ejerciciosZac;
 
 public class EjercicioSimple {
     public static void main(String[] args) {

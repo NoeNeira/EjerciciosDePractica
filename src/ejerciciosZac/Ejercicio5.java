@@ -1,6 +1,11 @@
-package paquete;
+package ejerciciosZac;
 
 import java.util.Scanner;
+
+/*
+Escribir un programa que te pregunte por dos numeros, y a continuacion imprima un mensaje
+del estilo \El promedio es: " y el valor del promedio de ambos numeros.
+ */
 
 public class Ejercicio5 {
     public static void main(String[] args) {
