@@ -6,9 +6,15 @@ public class Cuenta {
 
     public void ingresar(Double cantidad) {
         if (cantidad >= 0) {
-            this.saldo += cantidad; // saldo = saldo + cantidad;
+            this.saldo += cantidad; // saldo = saldo + cantidad
         }
+    }
 
+    public void retirar(Double cantidad) {
+        if (cantidad < getSaldo()) {
+            System.out.println("Esa transacción no es posible, saldo inferior al monto que desea retirar.");
+        }
+        //this.saldo -= cantidad; // saldo = saldo - cantidad
     }
 
     public String getTitular() {
@@ -26,6 +32,4 @@ public class Cuenta {
     protected void setSaldo(double saldo) {
         this.saldo = saldo;
     }
-
-
 }
