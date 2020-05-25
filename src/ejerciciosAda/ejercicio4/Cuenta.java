@@ -1,35 +1,25 @@
 package ejerciciosAda.ejercicio4;
 
 public class Cuenta {
-    private String titular;
+    private int titular;
     private double saldo;
 
-    public void ingresar(Double cantidad) {
-        if (cantidad >= 0) {
-            this.saldo += cantidad; // saldo = saldo + cantidad
-        }
+    public Cuenta(int cuenta, double inicial){ // Constructor
+        titular = cuenta;
+        saldo = inicial;
     }
 
-    public void retirar(Double cantidad) {
-        if (cantidad < getSaldo()) {
-            System.out.println("Esa transacción no es posible, saldo inferior al monto que desea retirar.");
-        }
-        //this.saldo -= cantidad; // saldo = saldo - cantidad
+    public void ingresar(double cantidad) {
+        saldo += cantidad; // saldo = saldo + cantidad
+
     }
 
-    public String getTitular() {
-        return titular;
+    public void retirar(double cantidad) {
+        saldo -= cantidad; // saldo = saldo - cantidad
     }
 
-    public void setTitular(String titular) {
-        this.titular = titular;
-    }
-
-    protected double getSaldo() {
+    public double saldo(){
         return saldo;
     }
 
-    protected void setSaldo(double saldo) {
-        this.saldo = saldo;
-    }
 }
