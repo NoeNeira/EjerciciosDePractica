@@ -1,6 +1,8 @@
 package ejerciciosZac;
-
-import java.util.Scanner;
+/*
+Escribir un metodo static int cantidadApariciones(String s, char c) que dada una cadena
+y un caracter, cuenta la cantidad de veces que aparece c en s.
+ */
 
 public class Ejercicio19 {
     public static void main(String[] args) {

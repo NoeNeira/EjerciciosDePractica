@@ -3,9 +3,10 @@ package ejerciciosZac;
 /*
 Ejercicio 20 F
 Escribir un metodo static int cantidadVocales(String s) que dada una cadena que contiene
-solo letras minusculas sin acentuar, devuelve la cantidad de vocales en dicha cadena. Nota: se puede
-utilizar el metodo denida en el ejercicio anterior.
+solo letras miniusculas sin acentuar, devuelve la cantidad de vocales en dicha cadena. Nota: se puede
+utilizar el metodo denida en el ejercicio anterior.
  */
+
 public class Ejercicio20 {
     public static void main(String[] args) {
         System.out.println(cantidadVocales("murcielago")); // palabra en castellano que contiene todas las vocales
